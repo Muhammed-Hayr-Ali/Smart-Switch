@@ -46,7 +46,7 @@ ALL OFF		https://s1.gulfupload.com/i/00090/aywoc1mtu93x.png
 
 
  On		https://s2.gulfupload.com/i/00090/xeqn8bn4sk1r.png
-Off	https://s2.gulfupload.com/i/00090/9najwoyiq4xo.png
+Off 	https://s2.gulfupload.com/i/00090/9najwoyiq4xo.png
 
 light on	https://s2.gulfupload.com/i/00090/56j3spywn4k6.png
 light off 	https://s2.gulfupload.com/i/00090/vf5in334f9q9.png
