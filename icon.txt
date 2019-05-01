@@ -1,0 +1,88 @@
+# Description	link		
+clear sky		
+1 01d		https://s2.gulfupload.com/i/00090/3qcr3djdyce4.png
+2 01n		https://s2.gulfupload.com/i/00090/qno3hesghsqf.png
+
+few clouds
+3 02d		https://s2.gulfupload.com/i/00090/70czp0h5mxvb.png
+4 02n		https://s2.gulfupload.com/i/00090/y7mj1syade26.png
+
+scattered clouds
+5 03d		https://s2.gulfupload.com/i/00090/9km60pt8546a.png
+6 03n		ttps://s2.gulfupload.com/i/00090/riha8uhr8qfb.png
+
+broken clouds
+7 04d		https://s1.gulfupload.com/i/00090/ibfd67v4pa02.png
+  04n		==
+
+shower rain
+8  09d		https://s1.gulfupload.com/i/00090/esr3xkq95w2g.png
+   09n		==
+
+rain
+9  10d		https://s1.gulfupload.com/i/00090/tpp141wzzh0k.png
+10 10n		https://s1.gulfupload.com/i/00090/xa35bpvophqr.png
+
+thunderstorm
+11 11d		https://s2.gulfupload.com/i/00090/nlw7m1kohjpn.png
+   11n
+
+snow
+12 13d		https://s1.gulfupload.com/i/00090/dwa3l9zkoyu1.png
+   13n		==
+
+mist
+13 50d		https://s1.gulfupload.com/i/00090/zwbrsouo4a60.png
+   50n		==
+
+
+
+
+ALL ON		https://s1.gulfupload.com/i/00090/tqhrlggtdk1a.png
+ALL OFF		https://s1.gulfupload.com/i/00090/aywoc1mtu93x.png
+
+
+
+
+
+ On		https://s2.gulfupload.com/i/00090/xeqn8bn4sk1r.png
+Off	https://s2.gulfupload.com/i/00090/9najwoyiq4xo.png
+
+light on	https://s2.gulfupload.com/i/00090/56j3spywn4k6.png
+light off 	https://s2.gulfupload.com/i/00090/vf5in334f9q9.png
+
+
+
+ventilator on	https://s2.gulfupload.com/i/00090/s5pl7jluq5dc.png
+ventilator off	https://s1.gulfupload.com/i/00090/rn3y4i1qwg5w.png
+
+
+3lamp on 	https://s1.gulfupload.com/i/00090/yak6eswwbif1.png
+3lamp off 	https://s1.gulfupload.com/i/00090/b34ncpwmotgk.png
+
+lamp 3 on 	https://s2.gulfupload.com/i/00090/akfn5qfw6w19.png
+lamp 3 off	https://s2.gulfupload.com/i/00090/2sdwmqeq5za6.png
+
+
+
+tv on		https://s2.gulfupload.com/i/00090/f4qmkgbsdai5.png
+tv off		https://s2.gulfupload.com/i/00090/ogdhrr8nwuac.png
+
+microwave on	https://s1.gulfupload.com/i/00090/5ri2ngkeht67.png
+microwave off	https://s2.gulfupload.com/i/00090/s6vppvcr6orh.png
+
+
+air-conditioner ON	https://s1.gulfupload.com/i/00090/j1k21cgqsb2i.png
+air-conditioner OFF	https://s1.gulfupload.com/i/00090/4jmlzdml2bfp.png
+
+#		Link
+ 0 - 10 	https://s1.gulfupload.com/i/00090/zx2orua6yphx.png
+10 - 20		https://s1.gulfupload.com/i/00090/nrynhmqzuxpr.png
+20 - 30 	https://s1.gulfupload.com/i/00090/o1tmuux3pksh.png
+30 - 40 	https://s1.gulfupload.com/i/00090/vtma0tet6qge.png
+40 - 50 	https://s1.gulfupload.com/i/00090/hw4euubgmp98.png
+50 - 60 	https://s1.gulfupload.com/i/00090/nkb8v7brpbho.png
+60 - 70 	https://s1.gulfupload.com/i/00090/g6xpec6tu3et.png
+70 - 80 	https://s1.gulfupload.com/i/00090/6zgmoxtdhmro.png
+80 - 90 	https://s1.gulfupload.com/i/00090/tg4471woiv0e.png
+90 -100 	https://s1.gulfupload.com/i/00090/whbbym6unvah.png
