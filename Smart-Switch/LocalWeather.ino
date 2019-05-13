@@ -15,6 +15,16 @@ void LocalWeather()
   Blynk.virtualWrite(LocalHumidity, localhumidity);
   Blynk.virtualWrite(LocalTemperature, localtemperature);
   //  Serial.println("Read Local Weather");
+
+  if ( RandomColors == true) {
+    Cont_Random_Colors++;
+    if (Cont_Random_Colors >= Timer_Random_Colors) {
+      Cont_Random_Colors = 0;
+      Random_Colors();
+    }
+
+  }
+
 }
 
 

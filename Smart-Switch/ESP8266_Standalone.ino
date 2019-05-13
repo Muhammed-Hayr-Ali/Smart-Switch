@@ -63,14 +63,33 @@ ShiftRegister74HC595 sr (2, 5, 0, 4);
 
 
 /****************************************************************************************************/
+int Menu;
 
+const int Red = 12;               // Red
+const int Green = 13;             // Green
+const int Blue = 14;              // Blue
 
-const int Green = 12;             // Green
-const int Blue = 13;              // Blue
-const int Red = 14;               // Red
-
-
+int Timer_Random_Colors;
+int Cont_Random_Colors = 0;
+boolean RandomColors = false;
 /****************************************************************************************************/
+
+//Widget Colors -------------------
+#define BLYNK_ON          "#A1A1A1"
+#define BLYNK_BALCK       "#000000"
+#define BLYNK_RED         "#FF0000"
+#define BLYNK_GREEN       "#00FF00"
+#define BLYNK_BLUE        "#0000FF"
+
+#define BLYNK_ORANGE      "#F93100"
+#define BLYNK_PINK        "#BA3EBA"
+#define BLYNK_AQUA        "#3EF9F9"
+#define BLYNK_GRYA        "#63F900"
+
+#define BLYNK_DARK        "#343232"
+#define BLYNK_DARKRED     "#a40000"
+#define BLYNK_DARKGREEN   "#00a400"
+#define BLYNK_DARKBLUE    "#0000a4"
 
 
 
@@ -162,12 +181,14 @@ void setup()
 
   WiFi.begin(ssid, pass);
   Serial.println("connecting");
-  while (WiFi.status() != WL_CONNECTED) {
+
+  do {
     delay(500);
     Serial.print(".");
-  }
-  Serial.println("");
-  Serial.println("WiFi Connected");
+  } while (WiFi.status() != WL_CONNECTED);
+
+
+  Serial.println("\nWiFi is Connected");
   printWiFiStatus();
 
   myPlace.setLocation( lat, lon );
@@ -238,7 +259,11 @@ void printBlynkStatus() {
 
     timer.setInterval(10000L,   LocalWeather);      // 10 second
     timer.setInterval(300000L, ServerWeather);      // 5  minute
-    Blynk.syncVirtual(V60, V61, V62, V63, V64, V65, V66, V67, V68, V69);
+
+    Blynk.virtualWrite(V16, 1);
+    Blynk.virtualWrite(V21, 0);
+    Blynk.virtualWrite(V22, 0);
+    Blynk.syncVirtual(V16, V60, V61, V62, V63, V64, V65, V66, V67, V68, V69);
 
 
   }
